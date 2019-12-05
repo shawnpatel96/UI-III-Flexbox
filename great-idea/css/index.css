@@ -284,9 +284,13 @@ h6{
 	
 }
 .list{
+	
 	margin-top: 20px;
 	line-height: 25px;
 	margin-left: 20px;
+}
+.listtwo{
+	list-style-type: square;
 }
 
 
