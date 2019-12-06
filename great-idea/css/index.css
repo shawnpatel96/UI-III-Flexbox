@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style:;
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,282 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+ 
+
+*{
+	
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+	
+}
+
+
+body{
+
+	margin: 0 auto;
+	width: 1000px
+}
+@media screen and (min-width: 849px){
+	.sixboxes{
+		display:flex:
+		flex-direction: column;
+	}
+}
+
+
+.navagation a:hover{
+	background: rgb(51, 53, 167);
+  	color: black;
+}
+.navagation a{
+	
+	padding: 2%;
+	margin: 10px;
+	color: grey;
+	text-decoration: none;
+}
+.header{
+	display:flex;
+	margin-top: 100px;
+}
+.innovation{
+	
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width:51%;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 75px ;
+	
+}
+.getstarted{
+	font-size: 30px;
+	background: black;
+	color:white;
+	font-family: none;
+	display:flex;
+	justify-content: center;
+	margin-left:170px;
+	width:30%
+}
+.beforeimg{
+	padding: 10px;
+	display:flex;
+	justify-content: space-around;
+	border-top: 3px solid black;
+	margin-top: 2.5%;
+}
+
+.features{
+	width: 40%;
+}
+.about{
+	width: 40%;
+}
+
+.imagethree{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	width: 100%;
+}
+
+.afterimage{
+	display:flex;
+	justify-content: space-around;
+	margin-top: px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid black;
+	padding: 50px
+	
+	
+}
+
+.services{
+	width: 33%
+}
+.product{
+	width: 33%
+}
+.vison{
+	width: 33%
+}
+.strech{
+	display:flex;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+	font-family: 'Calligraffitti', cursive;
+	
+}
+.employees{
+	margin-left: 65px;
+	width:50%;
+	margin-bottom: 20px;
+}
+.subsidiaries{
+	width: 50%;
+}
+
+
+.address{
+	
+	width:15%;
+}
+.street{
+	margin-bottom: 20px
+}
+.phone{
+	margin-bottom: 20px
+}
+.email{
+	margin-bottom: 20px;
+
+}
+
+footer{
+	text-align: center;
+}
+
+/* SERVICES HTML CSS STARTS HERE */ 
+
+.services-header-img{
+	margin-left:20px;
+	margin-top: 25px;
+	display:flex;
+	justify-content: center;
+}
+.servicestitle{
+	margin-top:20px;
+	font-size: 30px;
+
+}
+.aboutservices{
+	margin-bottom: 30px;
+	font-size:19px;
+}
+.sixboxes{
+	border-top:1px solid black;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	align-content:;
+	
+}
+.sixboxes div{
+	
+	padding: 15px;
+	background: rgb(221, 219, 219);
+	border: 1px solid black;
+	margin-top:35px;
+
+	height: 250px;
+	width: 425px;
+	
+}
+.sixboxes div p {
+	font-size: 19px
+}
+.learnmore{
+	border: 1px solid black;
+	background: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	display: flex;
+	padding: 7px;
+	justify-content: center;
+	align-content: center;
+	width: 150px;
+	height: 35px;
+}
+.servicefacts{
+	margin-top:20px;
+	border-top: 2px solid black;
+	
+	display:flex;
+	justify-content: space-evenly;
+	
+	
+}
+.servicecontent{
+	
+	
+	margin-top: 40px;
+	margin-right: 16px;
+	
+	width: 40%
+}
+
+h6{
+	font-size: 35px;
+}
+.services-info-img{
+	margin-top: 40px;
+	
+}
+.list{
+	
+	margin-top: 20px;
+	line-height: 25px;
+	margin-left: 20px;
+}
+.listtwo{
+	list-style-type: square;
+}
+
+
+
+
+copyright{
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 75px;
+	display:flex;
+	justify-content: center;
+
+}
+
+/* PRODCUCT CSS STARTS HERE */
+@keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%; 
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+
+
+  
+
+.product{
+	
+
+	animation-duration: 3s;
+	animation-name: slidein;
+	
+	margin: 0 auto;
+	width: 1000px;
+	background: rgb(0, 0, 0);
+	color: red;
+}
+
+.productp{
+	font-family: 'Indie Flower', cursive;
+}
+.logoo{ 
+    color:;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
