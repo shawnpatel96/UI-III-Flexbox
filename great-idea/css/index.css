@@ -78,8 +78,15 @@ h1, h2, h3, h4, h5 {
 
 
 body{
+
 	margin: 0 auto;
 	width: 1000px
+}
+@media screen and (min-width: 849px){
+	.sixboxes{
+		display:flex:
+		flex-direction: column;
+	}
 }
 
 
@@ -311,21 +318,18 @@ copyright{
 	}
   }
 
-  @keyframes pulse {
-	0% {
-	  background-color: #001F3F;
-	}
-	100% {
-	  background-color: #FF4136;
-	}
-  }
+
   
+
 .product{
+	
+
 	animation-duration: 3s;
 	animation-name: slidein;
+	
 	margin: 0 auto;
 	width: 1000px;
-	background: black;
+	background: rgb(0, 0, 0);
 	color: red;
 }
 
